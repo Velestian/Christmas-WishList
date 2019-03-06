@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tree_background"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ic_action_add"
+        android:icon="@drawable/ic_action_add"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/btnPriority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorRed"
+        android:text="@string/btnPriority"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/btnCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:background="@color/colorRed"
+        android:text="@string/btnCost"
+        android:textColor="@color/colorWhite"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/tvGift1"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_below="@+id/btnAdd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/black"
+        android:textSize="8sp"></TextView>
+
+    <TextView
+        android:id="@+id/tvGift2"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_below="@+id/tvGift1"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="45dp"
+        android:layout_toLeftOf="@+id/tvGift1"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/black"
+        android:textSize="8sp"></TextView>
+
+    <TextView
+        android:id="@+id/tvGift3"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_below="@+id/tvGift1"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="0dp"
+        android:layout_toEndOf="@+id/tvGift1"
+        android:gravity="center_vertical|center_horizontal"
+       android:textSize="8sp"></TextView>
+    <TextView
+        android:id="@+id/tvGift4"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_below="@+id/tvGift2"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="0dp"
+        android:layout_toLeftOf="@+id/tvGift1"
+        android:textSize="8sp"
+        android:gravity="center_vertical|center_horizontal"></TextView>
+    <TextView
+        android:id="@+id/tvGift5"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_below="@+id/tvGift3"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="0dp"
+        android:layout_toEndOf="@+id/tvGift1"
+        android:textSize="8sp"
+        android:gravity="center_vertical|center_horizontal"></TextView>
+
+    <TextView
+        android:id="@+id/tvGift6"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_below="@+id/tvGift4"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="0dp"
+        android:layout_toLeftOf="@+id/tvGift1"
+        android:textSize="8sp"
+        android:gravity="center_vertical|center_horizontal"></TextView>
+
+    <TextView
+        android:id="@+id/tvGift7"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_below="@+id/tvGift5"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="0dp"
+        android:layout_toEndOf="@+id/tvGift1"
+        android:textSize="8sp"
+        android:gravity="center_vertical|center_horizontal"></TextView>
+</RelativeLayout>
